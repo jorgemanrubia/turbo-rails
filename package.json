@@ -1,5 +1,5 @@
 {
-  "name": "@hotwired/turbo-rails",
+  "name": "@jorgemanrubia/testing-turbo-rails",
   "version": "8.0.9",
   "description": "The speed of a single-page web application without having to write any JavaScript",
   "module": "app/javascript/turbo/index.js",
@@ -9,6 +9,7 @@
   ],
   "exports": {
     ".": {
+      "default": "./app/javascript/turbo/index.js",
       "import": "./app/javascript/turbo/index.js",
       "require": "./app/assets/javascripts/turbo.js"
     }
